@@ -3,18 +3,17 @@ package cl.tbd.voluntariado.models;
 import java.sql.Date;
 
 import org.bson.codecs.pojo.annotations.BsonId;
-import org.bson.types.ObjectId;
 
 public class Tarea {
     @BsonId
     private String _id;
 
     private String name;
-    private String descrip;
-    private int cant_vol_requeridos;
-    private int cant_vol_inscritos;
-    private Date fecha_inicio; 
-    private Date fecha_fin;
+    private String descripcion;
+    private int cantVolRequeridos;
+    private int cantVolInscritos;
+    private Date fechainicio;
+    private Date fechafin;
     private String estado;
     private String emergencia;
 
@@ -24,12 +23,12 @@ public class Tarea {
     public Tarea(String _id, String name, String descripcion, int cant_vol_requeridos, int cant_vol_inscritos,  String estado, Date fecha_inicio, Date fecha_fin, String emergencia) {
         this._id = _id;
         this.name = name;
-        this.descrip = descripcion;
+        this.descripcion = descripcion;
         this.estado = estado;
-        this.fecha_inicio = fecha_inicio;
-        this.fecha_fin = fecha_fin;
-        this.cant_vol_inscritos = cant_vol_inscritos;
-        this.cant_vol_requeridos = cant_vol_requeridos;
+        this.fechainicio = fecha_inicio;
+        this.fechafin = fecha_fin;
+        this.cantVolInscritos = cant_vol_inscritos;
+        this.cantVolRequeridos = cant_vol_requeridos;
         this.emergencia = emergencia;
     }
 
@@ -42,7 +41,7 @@ public class Tarea {
     }
 
     public void setDescripcion(String descripcion) {
-        this.descrip = descripcion;
+        this.descripcion = descripcion;
     }
 
     public void setEstado(String estado) {
@@ -50,11 +49,11 @@ public class Tarea {
     }
 
     public void setFechafin(Date fecha_fin) {
-        this.fecha_fin = fecha_fin;
+        this.fechafin = fecha_fin;
     }
 
     public void setFechainicio(Date fecha_inicio) {
-        this.fecha_inicio = fecha_inicio;
+        this.fechainicio = fecha_inicio;
     }
 
     public void setemergencia(String emergencia) {
@@ -62,11 +61,11 @@ public class Tarea {
     }
 
     public void setCantVolRequeridos(int volreq) {
-        this.cant_vol_requeridos = volreq;
+        this.cantVolRequeridos = volreq;
     }
 
     public void setCantVolInscritos(int volins) { 
-        this.cant_vol_inscritos = volins;
+        this.cantVolInscritos = volins;
     }
 
     public String get_id() {
@@ -77,24 +76,24 @@ public class Tarea {
         return name;
     }
 
-    public String getDescrip() {
-        return descrip;
+    public String getDescripcion() {
+        return descripcion;
     }
 
-    public int getCant_vol_requeridos() {
-        return cant_vol_requeridos;
+    public int getCantVolRequeridos() {
+        return cantVolRequeridos;
     }
 
-    public int getCant_vol_inscritos() {
-        return cant_vol_inscritos;
+    public int getCantVolInscritos() {
+        return cantVolInscritos;
     }
 
-    public Date getFecha_inicio() {
-        return fecha_inicio;
+    public Date getFechainicio() {
+        return fechainicio;
     }
 
-    public Date getFecha_fin() {
-        return fecha_fin;
+    public Date getFechafin() {
+        return fechafin;
     }
 
     public String getEstado() {
