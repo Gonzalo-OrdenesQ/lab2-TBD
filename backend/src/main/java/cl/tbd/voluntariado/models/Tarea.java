@@ -1,5 +1,7 @@
 package cl.tbd.voluntariado.models;
 
+import java.sql.Date;
+
 import org.bson.codecs.pojo.annotations.BsonId;
 import org.bson.types.ObjectId;
 
@@ -8,23 +10,27 @@ public class Tarea {
     private ObjectId _id;
 
     private String nombre;
-    private String descripcion;
+    private String descrip;
     private String id_estado_tarea;
-    private String created_at;
-    private String updated_at;
-    private String id_emergencia;
+    private int cant_vol_requeridos;
+    private int cant_vol_inscritos;
+    private Date fecha_inicio; 
+    private Date fecha_fin;
+    private String emergencia;
 
     public Tarea() {
     }
 
-    public Tarea(ObjectId _id, String nombre, String descripcion, String id_estado_tarea, String created_at, String updated_at, String id_emergencia) {
+    public Tarea(ObjectId _id, String nombre, String descripcion, int cant_vol_requeridos, int cant_vol_inscritos,  String id_estado_tarea, Date fecha_inicio, Date fecha_fin, String emergencia) {
         this._id = _id;
         this.nombre = nombre;
-        this.descripcion = descripcion;
+        this.descrip = descripcion;
         this.id_estado_tarea = id_estado_tarea;
-        this.created_at = created_at;
-        this.updated_at = updated_at;
-        this.id_emergencia = id_emergencia;
+        this.fecha_inicio = fecha_inicio;
+        this.fecha_fin = fecha_fin;
+        this.cant_vol_inscritos = cant_vol_inscritos;
+        this.cant_vol_requeridos = cant_vol_requeridos;
+        this.emergencia = emergencia;
     }
 
     public void set_id(ObjectId _id) {
@@ -36,22 +42,30 @@ public class Tarea {
     }
 
     public void setDescripcion(String descripcion) {
-        this.descripcion = descripcion;
+        this.descrip = descripcion;
     }
 
     public void setId_estado_tarea(String id_estado_tarea) {
         this.id_estado_tarea = id_estado_tarea;
     }
 
-    public void setCreated_at(String created_at) {
-        this.created_at = created_at;
+    public void setFechafin(Date fecha_fin) {
+        this.fecha_fin = fecha_fin;
     }
 
-    public void setUpdated_at(String updated_at) {
-        this.updated_at = updated_at;
+    public void setFechainicio(Date fecha_inicio) {
+        this.fecha_inicio = fecha_inicio;
     }
 
-    public void setId_emergencia(String id_emergencia) {
-        this.id_emergencia = id_emergencia;
+    public void setemergencia(String emergencia) {
+        this.emergencia = emergencia;
+    }
+
+    public void setCantVolRequeridos(int volreq) {
+        this.cant_vol_requeridos = volreq;
+    }
+
+    public void setCantVolInscritos(int volins) { 
+        this.cant_vol_inscritos = volins;
     }
 }
