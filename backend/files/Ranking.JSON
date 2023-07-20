@@ -3,7 +3,7 @@
     "id_voluntario":{
         "$oid": "64b7577ce715bba30e0ad033"
     },
-    "ïd_tarea":{
+    "id_tarea":{
         "$oid": "60e9fe0e83de6776a8e27a01"
     },
     "puntos" : 30,
@@ -15,7 +15,7 @@
     "id_voluntario":{
         "$oid": "64b7577ce715bba30e0ad034"
     },
-    "ïd_tarea":{
+    "id_tarea":{
         "$oid": "60e9fe0e83de6776a8e27a01"
     },
     "puntos" : 50,
@@ -27,7 +27,7 @@
     "id_voluntario":{
         "$oid": "64b7577ce715bba30e0ad035"
     },
-    "ïd_tarea":{
+    "id_tarea":{
         "$oid": "60e9fe0e83de6776a8e27a01"
     },
     "puntos" : 30,
@@ -39,7 +39,7 @@
     "id_voluntario":{
         "$oid": "64b7577ce715bba30e0ad036"
     },
-    "ïd_tarea":{
+    "id_tarea":{
         "$oid": "60e9fe0e83de6776a8e27a02"
     },
     "puntos" : 100,
@@ -51,7 +51,7 @@
     "id_voluntario":{
         "$oid": "64b7577ce715bba30e0ad037"
     },
-    "ïd_tarea":{
+    "id_tarea":{
         "$oid": "60e9fe0e83de6776a8e27a02"
     },
     "puntos" : 67,
@@ -63,7 +63,7 @@
     "id_voluntario":{
         "$oid": "64b7577ce715bba30e0ad038"
     },
-    "ïd_tarea":{
+    "id_tarea":{
         "$oid": "60e9fe0e83de6776a8e27a02"
     },
     "puntos" : 67,
@@ -75,7 +75,7 @@
     "id_voluntario":{
         "$oid": "64b7577ce715bba30e0ad039"
     },
-    "ïd_tarea":{
+    "id_tarea":{
         "$oid": "60e9fe0e83de6776a8e27a03"
     },
     "puntos" : 67,
@@ -87,7 +87,7 @@
     "id_voluntario":{
         "$oid": "64b7577ce715bba30e0ad03a"
     },
-    "ïd_tarea":{
+    "id_tarea":{
         "$oid": "60e9fe0e83de6776a8e27a03"
     },
     "puntos" : 67,
@@ -99,7 +99,7 @@
     "id_voluntario":{
         "$oid": "64b7577ce715bba30e0ad03b"
     },
-    "ïd_tarea":{
+    "id_tarea":{
         "$oid": "60e9fe0e83de6776a8e27a03"
     },
     "puntos" : 67,
@@ -111,7 +111,7 @@
     "id_voluntario":{
         "$oid": "64b7577ce715bba30e0ad034"
     },
-    "ïd_tarea":{
+    "id_tarea":{
         "$oid": "60e9fe0e83de6776a8e27a04"
     },
     "puntos" : 67,
@@ -123,7 +123,7 @@
     "id_voluntario":{
         "$oid": "64b7577ce715bba30e0ad035"
     },
-    "ïd_tarea":{
+    "id_tarea":{
         "$oid": "60e9fe0e83de6776a8e27a04"
     },
     "puntos" : 67,
@@ -135,7 +135,7 @@
     "id_voluntario":{
         "$oid": "64b7577ce715bba30e0ad036"
     },
-    "ïd_tarea":{
+    "id_tarea":{
         "$oid": "60e9fe0e83de6776a8e27a04"
     },
     "puntos" : 67,
