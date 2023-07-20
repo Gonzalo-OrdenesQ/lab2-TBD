@@ -1,90 +1,92 @@
-[{
-  "_id": {
-    "$oid": "64b7545ce715bba30e0ad030"
-  },
-  "apellido": "roberto",
-  "correo_electronico": "jose.roberto@gmail.com",
-  "nombre": "jose",
-  "password": 5
-},
-{
-  "_id": {
-    "$oid": "64b7577ce715bba30e0ad033"
-  },
-  "nombre": "juan",
-  "apellido": "perez",
-  "password": "$2a$12$PXtHDvK/5it7eA2RRva7T.Au8P3Xafp7W6qCQJ18smp5cJ87lXIiW",
-  "correo_electronico": "juan.jose@gmail.com"
-},
-{
-  "_id": {
-    "$oid": "64b7577ce715bba30e0ad034"
-  },
-  "nombre": "ramiro",
-  "apellido": "enriquez",
-  "password": "$2a$12$1MWhpBv2beMBFY66nIZfMe8dw9CWhogWf/6mxQFgCKSTLPNkMtFxC",
-  "correo_electronico": "ramiro.enriquez@gmail.com"
-},
-{
-  "_id": {
-    "$oid": "64b7577ce715bba30e0ad035"
-  },
-  "nombre": "federico",
-  "apellido": "gonzalez",
-  "password": "$2a$12$VV6YgYgE6n60so4GIx74N.0wcopbH1nicdMRdmu0V1BxEb8MCf6MC",
-  "correo_electronico": "federico.gonzalez@gmail.com"
-},
-{
-  "_id": {
-    "$oid": "64b7577ce715bba30e0ad036"
-  },
-  "nombre": "nicolas",
-  "apellido": "hansen",
-  "password": "$2a$12$pFsGpIxS8xTtX8WheI1.qOXQn1UcMwP8EE7dPj0NDc8DVHrZL.qyu",
-  "correo_electronico": "nicolas.hansen@gmail.com"
-},
-{
-  "_id": {
-    "$oid": "64b7577ce715bba30e0ad037"
-  },
-  "nombre": "franco",
-  "apellido": "manriquez",
-  "password": "$2a$12$ovPNp5YZRc6PG8wZaZUp7e4MPn4HpUMbCWTQsKXjNOI5zkAV2AlSK",
-  "correo_electronico": "franco.manriquez@gmail.com"
-},
-{
-  "_id": {
-    "$oid": "64b7577ce715bba30e0ad038"
-  },
-  "nombre": "fabian",
-  "apellido": "valenzuela",
-  "password": "$2a$12$7CyD4TDOB2fSgrh8QjNNpugiG1qjoYVb5ecUXPAmRoX6kHCTUOdcW",
-  "correo_electronico": "fabian.valenzuela@gmail.com"
-},
-{
-  "_id": {
-    "$oid": "64b7577ce715bba30e0ad039"
-  },
-  "nombre": "marcela",
-  "apellido": "astudillo",
-  "password": "$2a$12$42lb3SGvqQgBwWf7C0ipjekqzzljkojnj/tq/QR1ef9C46WV8.7U.",
-  "correo_electronico": "marcela.astudillo@gmail.com"
-},
-{
-  "_id": {
-    "$oid": "64b7577ce715bba30e0ad03a"
-  },
-  "nombre": "lucia",
-  "apellido": "palomera",
-  "password": "$2a$12$j..Vo2PCl0K/S5QTBsrUyOTHjz3Fns8sBYs0YP0wvtJrp6KqOYR52",
-  "correo_electronico": "lucia.palomera@gmail.com"
-},
-{
-  "_id": {
-    "$oid": "64b7577ce715bba30e0ad03b"
-  },
-  "nombre": "francisca",
-  "apellido": "villalon",
-  "password": "$2a$12$gNbK2S7MiuoonfDisgAhpuTELS0otMXZKIWujImNFMkbrcDC6R7ei",
-  "correo_electronico": "francisca.villalon@gmail.com"
-}]
+[
+    {
+        "_id": {
+            "$oid": "64b7545ce715bba30e0ad030"
+        },
+        "nombre": "jose",
+        "apellido": "roberto",
+        "password": "$2a$12$PXtHDvK/5it7eA2RRva7T.Au8P3Xafp7W6qCQJ18smp5cJ87lXIiW",
+        "correo_electronico": "jose.roberto@gmail.com"
+    },
+    {
+        "_id": {
+            "$oid": "64b7577ce715bba30e0ad033"
+        },
+        "nombre": "juan",
+        "apellido": "perez",
+        "password": "$2a$12$PXtHDvK/5it7eA2RRva7T.Au8P3Xafp7W6qCQJ18smp5cJ87lXIiW",
+        "correo_electronico": "juan.jose@gmail.com"
+    },
+    {
+        "_id": {
+            "$oid": "64b7577ce715bba30e0ad034"
+        },
+        "nombre": "ramiro",
+        "apellido": "enriquez",
+        "password": "$2a$12$1MWhpBv2beMBFY66nIZfMe8dw9CWhogWf/6mxQFgCKSTLPNkMtFxC",
+        "correo_electronico": "ramiro.enriquez@gmail.com"
+    },
+    {
+        "_id": {
+            "$oid": "64b7577ce715bba30e0ad035"
+        },
+        "nombre": "federico",
+        "apellido": "gonzalez",
+        "password": "$2a$12$VV6YgYgE6n60so4GIx74N.0wcopbH1nicdMRdmu0V1BxEb8MCf6MC",
+        "correo_electronico": "federico.gonzalez@gmail.com"
+    },
+    {
+        "_id": {
+            "$oid": "64b7577ce715bba30e0ad036"
+        },
+        "nombre": "nicolas",
+        "apellido": "hansen",
+        "password": "$2a$12$pFsGpIxS8xTtX8WheI1.qOXQn1UcMwP8EE7dPj0NDc8DVHrZL.qyu",
+        "correo_electronico": "nicolas.hansen@gmail.com"
+    },
+    {
+        "_id": {
+            "$oid": "64b7577ce715bba30e0ad037"
+        },
+        "nombre": "franco",
+        "apellido": "manriquez",
+        "password": "$2a$12$ovPNp5YZRc6PG8wZaZUp7e4MPn4HpUMbCWTQsKXjNOI5zkAV2AlSK",
+        "correo_electronico": "franco.manriquez@gmail.com"
+    },
+    {
+        "_id": {
+            "$oid": "64b7577ce715bba30e0ad038"
+        },
+        "nombre": "fabian",
+        "apellido": "valenzuela",
+        "password": "$2a$12$7CyD4TDOB2fSgrh8QjNNpugiG1qjoYVb5ecUXPAmRoX6kHCTUOdcW",
+        "correo_electronico": "fabian.valenzuela@gmail.com"
+    },
+    {
+        "_id": {
+            "$oid": "64b7577ce715bba30e0ad039"
+        },
+        "nombre": "marcela",
+        "apellido": "astudillo",
+        "password": "$2a$12$42lb3SGvqQgBwWf7C0ipjekqzzljkojnj/tq/QR1ef9C46WV8.7U.",
+        "correo_electronico": "marcela.astudillo@gmail.com"
+    },
+    {
+        "_id": {
+            "$oid": "64b7577ce715bba30e0ad03a"
+        },
+        "nombre": "lucia",
+        "apellido": "palomera",
+        "password": "$2a$12$j..Vo2PCl0K/S5QTBsrUyOTHjz3Fns8sBYs0YP0wvtJrp6KqOYR52",
+        "correo_electronico": "lucia.palomera@gmail.com"
+    },
+    {
+        "_id": {
+            "$oid": "64b7577ce715bba30e0ad03b"
+        },
+        "nombre": "francisca",
+        "apellido": "villalon",
+        "password": "$2a$12$gNbK2S7MiuoonfDisgAhpuTELS0otMXZKIWujImNFMkbrcDC6R7ei",
+        "correo_electronico": "francisca.villalon@gmail.com"
+    }
+]
