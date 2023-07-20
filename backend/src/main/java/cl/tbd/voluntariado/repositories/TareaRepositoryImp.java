@@ -50,13 +50,13 @@ public class TareaRepositoryImp implements TareaRepository{
     List<Bson> updates = new ArrayList<>();
 
     if (nombre != null) {
-        updates.add(Updates.set("nombre", nombre));
+        updates.add(Updates.set("name", nombre));
     }
     if (descrip != null) {
         updates.add(Updates.set("descrip", descrip));
     }
     if (id_estado_tarea != null) {
-        updates.add(Updates.set("id_estado_tarea", id_estado_tarea));
+        updates.add(Updates.set("estado", id_estado_tarea));
     }
     if (cant_vol_requeridos != null) {
         updates.add(Updates.set("cant_vol_requeridos", cant_vol_requeridos));

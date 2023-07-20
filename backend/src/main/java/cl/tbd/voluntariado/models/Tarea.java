@@ -7,25 +7,25 @@ import org.bson.types.ObjectId;
 
 public class Tarea {
     @BsonId
-    private ObjectId _id;
+    private String _id;
 
-    private String nombre;
+    private String name;
     private String descrip;
-    private String estado_tarea;
     private int cant_vol_requeridos;
     private int cant_vol_inscritos;
     private Date fecha_inicio; 
     private Date fecha_fin;
+    private String estado;
     private String emergencia;
 
     public Tarea() {
     }
 
-    public Tarea(ObjectId _id, String nombre, String descripcion, int cant_vol_requeridos, int cant_vol_inscritos,  String estado_tarea, Date fecha_inicio, Date fecha_fin, String emergencia) {
+    public Tarea(String _id, String name, String descripcion, int cant_vol_requeridos, int cant_vol_inscritos,  String estado, Date fecha_inicio, Date fecha_fin, String emergencia) {
         this._id = _id;
-        this.nombre = nombre;
+        this.name = name;
         this.descrip = descripcion;
-        this.estado_tarea = estado_tarea;
+        this.estado = estado;
         this.fecha_inicio = fecha_inicio;
         this.fecha_fin = fecha_fin;
         this.cant_vol_inscritos = cant_vol_inscritos;
@@ -33,20 +33,20 @@ public class Tarea {
         this.emergencia = emergencia;
     }
 
-    public void set_id(ObjectId _id) {
+    public void set_id(String _id) {
         this._id = _id;
     }
 
-    public void setNombre(String nombre) {
-        this.nombre = nombre;
+    public void setName(String name) {
+        this.name = name;
     }
 
     public void setDescripcion(String descripcion) {
         this.descrip = descripcion;
     }
 
-    public void setEstado_tarea(String estado_tarea) {
-        this.estado_tarea = estado_tarea;
+    public void setEstado(String estado) {
+        this.estado = estado;
     }
 
     public void setFechafin(Date fecha_fin) {
@@ -67,5 +67,41 @@ public class Tarea {
 
     public void setCantVolInscritos(int volins) { 
         this.cant_vol_inscritos = volins;
+    }
+
+    public String get_id() {
+        return _id;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public String getDescrip() {
+        return descrip;
+    }
+
+    public int getCant_vol_requeridos() {
+        return cant_vol_requeridos;
+    }
+
+    public int getCant_vol_inscritos() {
+        return cant_vol_inscritos;
+    }
+
+    public Date getFecha_inicio() {
+        return fecha_inicio;
+    }
+
+    public Date getFecha_fin() {
+        return fecha_fin;
+    }
+
+    public String getEstado() {
+        return estado;
+    }
+
+    public String getEmergencia() {
+        return emergencia;
     }
 }

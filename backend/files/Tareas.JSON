@@ -1,0 +1,252 @@
+[
+    {
+        "_id": {
+        "$oid": "60e9fe0e83de6776a8e27a01"},
+        "name": "Quitar escombros",
+        "descrip": "Sacar los escombros de las casas",
+        "cant_vol_requeridos": 100,
+        "cant_vol_inscritos": 20,
+        "fecha_inicio": {"$date": "2023-07-10T00:00:00.000Z"},
+        "fecha_fin": {"$date": "2023-09-30T00:00:00.000Z"},
+        "estado": "No iniciado",
+        "emergencia": "Terremoto 8.8 Richter"
+    },
+    {
+        "_id": {
+        "$oid": "60e9fe0e83de6776a8e27a02"},
+        "name": "Transportar ancianos",
+        "descrip": "Ubicar a los ancianos en un lugar seguro",
+        "cant_vol_requeridos": 20,
+        "cant_vol_inscritos": 20,
+        "fecha_inicio": {"$date": "2022-05-24T00:00:00.000Z"},
+        "fecha_fin": {"$date": "2022-05-25T00:00:00.000Z"},
+        "estado": "Preparado para iniciar",
+        "emergencia": "Ogro destroza pantano cerca de ciudad"
+    }
+    ,
+    {
+        "_id": {
+        "$oid": "60e9fe0e83de6776a8e27a03"},
+        "name": "Encontrar animales",
+        "descrip": "Ubicar a las mascotas de los residentes",
+        "cant_vol_requeridos": 25,
+        "cant_vol_inscritos": 5,
+        "fecha_inicio": {"$date": "2023-06-12T00:00:00.000Z"},
+        "fecha_fin": {"$date": "2023-06-25T00:00:00.000Z"},
+        "estado": "No iniciado",
+        "emergencia": "Terremoto 7.8 Richter"
+    },
+    {
+        "_id": {
+        "$oid": "60e9fe0e83de6776a8e27a04"},
+        "name": "Rastrear personas",
+        "descrip": "Ubicar a las personas desaparecidas",
+        "cant_vol_requeridos": 25,
+        "cant_vol_inscritos": 5,
+        "fecha_inicio": {"$date": "2013-09-12T00:00:00.000Z"},
+        "fecha_fin": {"$date": "2013-09-18T00:00:00.000Z"},
+        "estado": "No iniciado",
+        "emergencia": "Anegamiento de carretera"
+    },
+    {
+        "_id": {
+        "$oid": "60e9fe0e83de6776a8e27a05"},
+        "name": "Recoleccion de basura (punzantes)",
+        "descrip": "Se pide recolectar la basura",
+        "cant_vol_requeridos": 50,
+        "cant_vol_inscritos": 50,
+        "fecha_inicio": {"$date": "2019-12-12T00:00:00.000Z"},
+        "fecha_fin": {"$date": "2020-01-20T00:00:00.000Z"},
+        "estado": "Preparado para iniciar",
+        "emergencia": "Incendio Forestal en Lota"
+    },
+    {
+        "_id": {
+        "$oid": "60e9fe0e83de6776a8e27a06"},
+        "name": "Contar heridos",
+        "descrip": "Contabilizar a las personas heridas",
+        "cant_vol_requeridos": 37,
+        "cant_vol_inscritos": 12,
+        "fecha_inicio": {"$date": "2021-06-01T00:00:00.000Z"},
+        "fecha_fin": {"$date": "2021-06-20T00:00:00.000Z"},
+        "estado": "Cancelado",
+        "emergencia": "Terremoto 8.8 Richter"
+    },
+    {
+        "_id": {
+        "$oid": "60e9fe0e83de6776a8e27a07"},
+        "name": "Trasladar heridos",
+        "descrip": "Trasladar a las personas heridas para recibir atención medica",
+        "cant_vol_requeridos": 200,
+        "cant_vol_inscritos": 200,
+        "fecha_inicio": {"$date": "2022-07-05T00:00:00.000Z"},
+        "fecha_fin": {"$date": "2022-07-06T00:00:00.000Z"},
+        "estado": "Preparado para iniciar",
+        "emergencia": "Ogro destroza pantano cerca de ciudad"
+    },
+    {
+        "_id": {
+        "$oid": "60e9fe0e83de6776a8e27a08"},
+        "name": "Medicar personas",
+        "descrip": "Recetar farmacos a personas",
+        "cant_vol_requeridos": 50,
+        "cant_vol_inscritos": 50,
+        "fecha_inicio": {"$date": "2010-10-10T00:00:00.000Z"},
+        "fecha_fin": {"$date": "2010-12-10T00:00:00.000Z"},
+        "estado": "Preparado para iniciar",
+        "emergencia": "Terremoto 8.8 Richter"
+    },
+    {
+        "_id": {
+        "$oid": "60e9fe0e83de6776a8e27a09"},
+        "name": "Repartir agua",
+        "descrip": "Distribuir agua entre los afectados",
+        "cant_vol_requeridos": 100,
+        "cant_vol_inscritos": 100,
+        "fecha_inicio": {"$date": "2022-07-10T00:00:00.000Z"},
+        "fecha_fin": {"$date": "2022-09-30T00:00:00.000Z"},
+        "estado": "En desarrollo",
+        "emergencia": "Terremoto 7.8 Richter Arica"
+    },
+    {
+        "_id": {
+        "$oid": "60e9fe0e83de6776a8e27a0a"},
+        "name": "Medicar animales",
+        "descrip": "Recetar farmacos para animales",
+        "cant_vol_requeridos": 120,
+        "cant_vol_inscritos": 120,
+        "fecha_inicio": {"$date": "2022-07-09T00:00:00.000Z"},
+        "fecha_fin": {"$date": "2022-07-12T00:00:00.000Z"},
+        "estado": "Finalizado",
+        "emergencia": "Terremoto 7.8 Richter Arica"
+    },
+    {
+        "_id": {
+        "$oid": "60e9fe0e83de6776a8e27a0b"},
+        "name": "Apagar incendio",
+        "descrip": "Extingir llamas de un recinto",
+        "cant_vol_requeridos": 57,
+        "cant_vol_inscritos": 57,
+        "fecha_inicio": {"$date": "2022-09-10T00:00:00.000Z"},
+        "fecha_fin": {"$date": "2022-10-15T00:00:00.000Z"},
+        "estado": "En desarrollo",
+        "emergencia": "Anegamiento de carretera"
+    },
+    {
+        "_id": {
+            "$oid":"60e9fe0e83de6776a8e27a0c"
+        },
+        "name": "Encontrar heridos",
+        "descrip": "Ubicar a personas inconscientes",
+        "cant_vol_requeridos": 20,
+        "cant_vol_inscritos": 20,
+        "fecha_inicio": {"$date": "2015-12-10T00:00.000Z"},
+        "fecha_fin": {"$date": "2015-12-10T00:00:00.000Z"},
+        "estado": "Finalizado",
+        "emergencia": "Caida de rocas en carretera"
+    },
+    {
+        "_id": {
+            "$oid":"60e9fe0e83de6776a8e27a0d"
+        },
+        "name": "Tratar heridas graves",
+        "descrip": "Atender a las personas con heridas que involucren un peligro de muerte",
+        "cant_vol_requeridos": 40,
+        "cant_vol_inscritos": 38,
+        "fecha_inicio": {"$date": "2023-07-18T00:00:00.000Z"},
+        "fecha_fin": {"$date": "2023-08-19T00:00:00.000Z"},
+        "estado": "En desarrollo",
+        "emergencia": "Desborde de canal"
+    },
+    {
+        "_id": {
+            "$oid":"60e9fe0e83de6776a8e27a0e"
+        },
+        "name": "Repartir medicamentos",
+        "descrip": "Distribuir medicamentos entre los afectados",
+        "cant_vol_requeridos": 20,
+        "cant_vol_inscritos": 10,
+        "fecha_inicio": {"$date": "2013-09-20T00:00:00.000Z"},
+        "fecha_fin": {"$date": "2013-09-30T00:00:00.000Z"},
+        "estado": "No iniciado",
+        "emergencia": "Terremoto 7.8 Richter Iquique"
+    },
+    {
+        "_id": {
+            "$oid":"60e9fe0e83de6776a8e27a0f"
+        },
+        "name": "Reparticion de almuerzos a damnificados",
+        "descrip": "Repartir alimentos donados por privados a los afectados por inundacion",
+        "cant_vol_requeridos": 38,
+        "cant_vol_inscritos": 37,
+        "fecha_inicio": {"$date": "2013-09-01T00:00:00.000Z"},
+        "fecha_fin": {"$date": "2013-09-18T00:00:00.000Z"},
+        "estado": "En desarrollo",
+        "emergencia": "Terremoto 7.8 Richter Arica"
+    },
+    {
+        "_id": {
+            "$oid":"60e9fe0e83de6776a8e27a10"
+        },
+        "name": "Rastrear personas",
+        "descrip": "Ubicar a las personas desaparecidas",
+        "cant_vol_requeridos": 35,
+        "cant_vol_inscritos": 35,
+        "fecha_inicio": {"$date": "2013-08-11T00:00:00.000Z"},
+        "fecha_fin": {"$date": "2013-08-28T00:00:00.000Z"},
+        "estado": "Finalizado",
+        "emergencia": "Terremoto 7.8 Richter Arica"
+    },
+    {
+        "_id": {
+            "$oid":"60e9fe0e83de6776a8e27a11"
+        },
+        "name": "Evacuar adultos mayores",
+        "descrip": "Reubicar adultos mayores de zonas de peligro",
+        "cant_vol_requeridos": 35,
+        "cant_vol_inscritos": 4,
+        "fecha_inicio": {"$date": "2019-12-12T00:00:00.000Z"},
+        "fecha_fin": {"$date": "2020-01-20T00:00:00.000Z"},
+        "estado": "Cancelado",
+        "emergencia": "Inundaciones por marejadas"
+    },
+    {
+        "_id": {
+            "$oid":"60e9fe0e83de6776a8e27a12"
+        },
+        "name": "Repartir comida",
+        "descrip": "Distribuir comida entre los afectados",
+        "cant_vol_requeridos": 20,
+        "cant_vol_inscritos": 4,
+        "fecha_inicio": {"$date": "2013-09-12T00:00:00.000Z"},
+        "fecha_fin": {"$date": "2013-09-18T00:00:00.000Z"},
+        "estado": "Cancelado",
+        "emergencia": "Desborde de canal"
+    },
+    {
+        "_id": {
+            "$oid":"60e9fe0e83de6776a8e27a13"
+        },
+        "name": "Quitar escombros",
+        "descrip": "Sacar los escombros de las casas",
+        "cant_vol_requeridos": 400,
+        "cant_vol_inscritos": 250,
+        "fecha_inicio": {"$date": "2020-12-12T00:00:00.000Z"},
+        "fecha_fin": {"$date": "2021-03-20T00:00:00.000Z"},
+        "estado": "No iniciado",
+        "emergencia": "Terremoto 8.8 Richter"
+    },
+    {
+        "_id": {
+            "$oid":"60e9fe0e83de6776a8e27a14"
+        },
+        "name": "Contar heridos",
+        "descrip": "Contabilizar a las personas heridas",
+        "cant_vol_requeridos": 12,
+        "cant_vol_inscritos": 12,
+        "fecha_inicio": {"$date": "2019-11-01T00:00:00.000Z"},
+        "fecha_fin": {"$date": "2019-12-01T00:00:00.000Z"},
+        "estado": "Preparado para iniciar",
+        "emergencia": "Ogro destroza pantano cerca de ciudad"
+    }
+]
