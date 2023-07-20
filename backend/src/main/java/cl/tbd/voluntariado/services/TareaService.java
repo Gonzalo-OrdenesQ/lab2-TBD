@@ -32,7 +32,7 @@ public class TareaService {
 
     @PutMapping
     public Tarea updateTarea(@RequestBody Tarea tarea){
-        return tareaRepository.updateTarea(tarea.get_id(),tarea.getName(),tarea.getDescrip(),tarea.getEstado(),tarea.getCant_vol_requeridos(),tarea.getCant_vol_inscritos(),tarea.getFecha_inicio(),tarea.getFecha_fin(),tarea.getEmergencia());
+        return tareaRepository.updateTarea(tarea.get_id(),tarea.getName(),tarea.getDescripcion(),tarea.getEstado(),tarea.getCantVolRequeridos(),tarea.getCantVolInscritos(),tarea.getFechainicio(),tarea.getFechafin(),tarea.getEmergencia());
     }
 
     @DeleteMapping("/{id}")
