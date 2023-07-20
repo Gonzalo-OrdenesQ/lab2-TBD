@@ -11,5 +11,5 @@ public interface RankingRepository {
     public void deleteRankingById(String id);
     public Ranking getRanking(String id);
     public Ranking updateRanking(String id, String id_voluntario, String id_tarea, int puntos, String created_at, String updated_at);
-    public List<Ranking> getRanking();
+    public List<Ranking> getRankings();
 }
