@@ -50,7 +50,7 @@ public class RankingRepositoryImp implements RankingRepository{
             updates.add(Updates.set("id_voluntario", id_voluntario));
         if (id_tarea != null)
             updates.add(Updates.set("id_tarea", id_tarea));
-        if (puntos != null)
+        if (Integer.valueOf(puntos) != null)
             updates.add(Updates.set("puntos", puntos));
         if (created_at != null)
             updates.add(Updates.set("created_at", created_at));
