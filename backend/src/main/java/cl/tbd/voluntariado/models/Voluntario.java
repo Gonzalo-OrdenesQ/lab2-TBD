@@ -6,14 +6,14 @@ import org.bson.types.ObjectId;
 public class Voluntario {
 
     @BsonId
-    private ObjectId _id;
+    private String _id;
 
     private String nombre;
     private String apellido;
     private String correo_electronico;
     private String password;
 
-    public Voluntario(ObjectId _id, String nombre, String apellido, String correo_electronico, String password) {
+    public Voluntario(String _id, String nombre, String apellido, String correo_electronico, String password) {
         this._id = _id;
         this.nombre = nombre;
         this.apellido = apellido;
@@ -24,11 +24,11 @@ public class Voluntario {
     public Voluntario() {
     }
 
-    public ObjectId get_id() {
+    public String get_id() {
         return _id;
     }
 
-    public void set_id(ObjectId _id) {
+    public void set_id(String _id) {
         this._id = _id;
     }
 

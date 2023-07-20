@@ -43,23 +43,29 @@ public class VoluntarioRepositoryImp implements VoluntarioRepository{
 
     @Override
     public Voluntario updateVoluntario(String id, String nombre, String apellido, String correo_electronico) {
-    MongoCollection<Voluntario> collection = database.getCollection("voluntario", Voluntario.class);
-    Bson filter = Filters.eq("_id", new ObjectId(id));
-    List<Bson> updates = new ArrayList<>();
+        MongoCollection<Voluntario> collection = database.getCollection("voluntario", Voluntario.class);
+        Bson filter = Filters.eq("_id", new ObjectId(id));
+        List<Bson> updates = new ArrayList<>();
 
-    if (nombre != null) {
-        updates.add(Updates.set("nombre", nombre));
-    }
-    if (apellido != null) {
-        updates.add(Updates.set("apellido", apellido));
-    }
-    if (correo_electronico != null) {
-        updates.add(Updates.set("correo_electronico", correo_electronico));
+        if (nombre != null) {
+            updates.add(Updates.set("nombre", nombre));
+        }
+        if (apellido != null) {
+            updates.add(Updates.set("apellido", apellido));
+        }
+        if (correo_electronico != null) {
+            updates.add(Updates.set("correo_electronico", correo_electronico));
+        }
+
+        Bson update = Updates.combine(updates);
+        collection.updateOne(filter, update);
+        return collection.find(filter).first();
     }
 
-    Bson update = Updates.combine(updates);
-    collection.updateOne(filter, update);
-    return collection.find(filter).first();
-}
+    public List<Voluntario> getVoluntarios(){
+        MongoCollection<Voluntario> collection = database.getCollection("voluntario", Voluntario.class);
+        List<Voluntario> voluntarios = collection.find().into(new ArrayList<>());
+        return voluntarios;
+    }
 
 }

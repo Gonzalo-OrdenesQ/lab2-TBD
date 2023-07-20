@@ -9,7 +9,7 @@ public class Tarea {
 
     private String nombre;
     private String descripcion;
-    private String id_estado_tarea;
+    private String estado_tarea;
     private String created_at;
     private String updated_at;
     private String id_emergencia;
@@ -21,7 +21,7 @@ public class Tarea {
         this._id = _id;
         this.nombre = nombre;
         this.descripcion = descripcion;
-        this.id_estado_tarea = id_estado_tarea;
+        this.estado_tarea = id_estado_tarea;
         this.created_at = created_at;
         this.updated_at = updated_at;
         this.id_emergencia = id_emergencia;
@@ -40,7 +40,7 @@ public class Tarea {
     }
 
     public void setId_estado_tarea(String id_estado_tarea) {
-        this.id_estado_tarea = id_estado_tarea;
+        this.estado_tarea = id_estado_tarea;
     }
 
     public void setCreated_at(String created_at) {
