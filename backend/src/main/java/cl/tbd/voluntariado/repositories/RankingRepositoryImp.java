@@ -63,7 +63,7 @@ public class RankingRepositoryImp implements RankingRepository{
     }
 
     @Override
-    public List<Ranking> getRanking() {
+    public List<Ranking> getRankings() {
         MongoCollection<Ranking> collection = database.getCollection("ranking",Ranking.class);
         List<Ranking> voluntarios = collection.find().into(new ArrayList<>());
         return voluntarios;

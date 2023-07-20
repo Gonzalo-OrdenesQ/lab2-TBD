@@ -16,6 +16,8 @@ import com.mongodb.client.model.Updates;
 
 import cl.tbd.voluntariado.models.Tarea;
 import cl.tbd.voluntariado.models.Voluntario;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
 
 @Repository
 public class TareaRepositoryImp implements TareaRepository{
@@ -77,5 +79,12 @@ public class TareaRepositoryImp implements TareaRepository{
     Bson update = Updates.combine(updates);
     collection.updateOne(filter, update);
     return collection.find(filter).first();
-}
+    }
+
+    @Override
+    public List<Tarea> getTareas(){
+        MongoCollection<Tarea> collection = database.getCollection("tarea", Tarea.class);
+        List<Tarea> tareas = collection.find().into(new ArrayList<>());
+        return tareas;
+    }
 }
