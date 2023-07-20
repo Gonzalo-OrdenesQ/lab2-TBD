@@ -11,7 +11,7 @@ public class Tarea {
 
     private String nombre;
     private String descrip;
-    private String id_estado_tarea;
+    private String estado_tarea;
     private int cant_vol_requeridos;
     private int cant_vol_inscritos;
     private Date fecha_inicio; 
@@ -21,11 +21,11 @@ public class Tarea {
     public Tarea() {
     }
 
-    public Tarea(ObjectId _id, String nombre, String descripcion, int cant_vol_requeridos, int cant_vol_inscritos,  String id_estado_tarea, Date fecha_inicio, Date fecha_fin, String emergencia) {
+    public Tarea(ObjectId _id, String nombre, String descripcion, int cant_vol_requeridos, int cant_vol_inscritos,  String estado_tarea, Date fecha_inicio, Date fecha_fin, String emergencia) {
         this._id = _id;
         this.nombre = nombre;
         this.descrip = descripcion;
-        this.id_estado_tarea = id_estado_tarea;
+        this.estado_tarea = estado_tarea;
         this.fecha_inicio = fecha_inicio;
         this.fecha_fin = fecha_fin;
         this.cant_vol_inscritos = cant_vol_inscritos;
@@ -45,8 +45,8 @@ public class Tarea {
         this.descrip = descripcion;
     }
 
-    public void setId_estado_tarea(String id_estado_tarea) {
-        this.estado_tarea = id_estado_tarea;
+    public void setEstado_tarea(String estado_tarea) {
+        this.estado_tarea = estado_tarea;
     }
 
     public void setFechafin(Date fecha_fin) {
